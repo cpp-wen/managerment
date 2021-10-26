@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/company/company.iml" filepath="$PROJECT_DIR$/company/company.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdkOriginal/jdkOriginal.iml" filepath="$PROJECT_DIR$/jdkOriginal/jdkOriginal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/managerment.iml" filepath="$PROJECT_DIR$/managerment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty/netty.iml" filepath="$PROJECT_DIR$/netty/netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+    </modules>
+  </component>
+</project>

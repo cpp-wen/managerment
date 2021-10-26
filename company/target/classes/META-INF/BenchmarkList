@@ -1,0 +1,4 @@
+JMH S 26 benchMarkTest.BeancopyTest S 57 benchMarkTest.jmh_generated.BeancopyTest_jsonCopy_jmhTest S 8 jsonCopy S 10 Throughput I 1 4 A 1 1 1 E I 1 1 E E I 1 2 T 3 6 s E I 1 2 E E E E E E E E E 
+JMH S 25 benchMarkTest.MyBenchmark S 61 benchMarkTest.jmh_generated.MyBenchmark_testStringAdd_jmhTest S 13 testStringAdd S 10 Throughput I 1 4 A 1 1 1 E I 1 1 E E I 1 2 T 3 6 s E I 1 2 E E E E E M 1 6 length 3 8 xAAMAA== 8 1AAMAA== 8 xAAMAADA E E E 
+JMH S 25 benchMarkTest.MyBenchmark S 68 benchMarkTest.jmh_generated.MyBenchmark_testStringBuilderAdd_jmhTest S 20 testStringBuilderAdd S 10 Throughput I 1 4 A 1 1 1 E I 1 1 E E I 1 2 T 3 6 s E I 1 2 E E E E E M 1 6 length 3 8 xAAMAA== 8 1AAMAA== 8 xAAMAADA E E E 
+JMH S 26 benchMarkTest.BeancopyTest S 58 benchMarkTest.jmh_generated.BeancopyTest_orikaTest_jmhTest S 9 orikaTest S 10 Throughput I 1 4 A 1 1 1 E I 1 1 E E I 1 2 T 3 6 s E I 1 2 E E E E E E E E E 
