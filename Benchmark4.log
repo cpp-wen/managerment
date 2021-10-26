@@ -1,0 +1,213 @@
+# JMH version: 1.26
+# VM version: JDK 1.8.0_271, Java HotSpot(TM) 64-Bit Server VM, 25.271-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=52669:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: utils.matchutilsBenchMark.joinerWithKeyValue
+
+# Run progress: 0.00% complete, ETA 00:10:40
+# Fork: 1 of 2
+# Warmup Iteration   1: 736.625 ops/ms
+# Warmup Iteration   2: 697.674 ops/ms
+# Warmup Iteration   3: 747.864 ops/ms
+Iteration   1: 753.455 ops/ms
+Iteration   2: 733.643 ops/ms
+Iteration   3: 736.284 ops/ms
+Iteration   4: 662.535 ops/ms
+Iteration   5: 731.111 ops/ms
+Iteration   6: 721.080 ops/ms
+Iteration   7: 690.926 ops/ms
+Iteration   8: 709.594 ops/ms
+Iteration   9: 634.425 ops/ms
+Iteration  10: 612.107 ops/ms
+
+# Run progress: 12.50% complete, ETA 00:09:27
+# Fork: 2 of 2
+# Warmup Iteration   1: 657.461 ops/ms
+# Warmup Iteration   2: 659.122 ops/ms
+# Warmup Iteration   3: 645.117 ops/ms
+Iteration   1: 649.938 ops/ms
+Iteration   2: 609.816 ops/ms
+Iteration   3: 644.819 ops/ms
+Iteration   4: 610.595 ops/ms
+Iteration   5: 613.593 ops/ms
+Iteration   6: 373.697 ops/ms
+Iteration   7: 328.073 ops/ms
+Iteration   8: 692.167 ops/ms
+Iteration   9: 710.062 ops/ms
+Iteration  10: 685.687 ops/ms
+
+
+Result "utils.matchutilsBenchMark.joinerWithKeyValue":
+  645.180 ±(99.9%) 96.477 ops/ms [Average]
+  (min, avg, max) = (328.073, 645.180, 753.455), stdev = 111.103
+  CI (99.9%): [548.704, 741.657] (assumes normal distribution)
+
+
+# JMH version: 1.26
+# VM version: JDK 1.8.0_271, Java HotSpot(TM) 64-Bit Server VM, 25.271-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=52669:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: utils.matchutilsBenchMark.repalceAll
+
+# Run progress: 25.00% complete, ETA 00:08:06
+# Fork: 1 of 2
+# Warmup Iteration   1: 65.511 ops/ms
+# Warmup Iteration   2: 64.021 ops/ms
+# Warmup Iteration   3: 71.699 ops/ms
+Iteration   1: 71.863 ops/ms
+Iteration   2: 72.198 ops/ms
+Iteration   3: 69.604 ops/ms
+Iteration   4: 70.743 ops/ms
+Iteration   5: 58.077 ops/ms
+Iteration   6: 66.294 ops/ms
+Iteration   7: 68.797 ops/ms
+Iteration   8: 63.394 ops/ms
+Iteration   9: 67.204 ops/ms
+Iteration  10: 55.379 ops/ms
+
+# Run progress: 37.50% complete, ETA 00:06:45
+# Fork: 2 of 2
+# Warmup Iteration   1: 48.334 ops/ms
+# Warmup Iteration   2: 63.181 ops/ms
+# Warmup Iteration   3: 60.649 ops/ms
+Iteration   1: 67.407 ops/ms
+Iteration   2: 72.500 ops/ms
+Iteration   3: 72.143 ops/ms
+Iteration   4: 68.553 ops/ms
+Iteration   5: 65.999 ops/ms
+Iteration   6: 63.401 ops/ms
+Iteration   7: 63.980 ops/ms
+Iteration   8: 65.926 ops/ms
+Iteration   9: 63.960 ops/ms
+Iteration  10: 59.502 ops/ms
+
+
+Result "utils.matchutilsBenchMark.repalceAll":
+  66.346 ±(99.9%) 4.195 ops/ms [Average]
+  (min, avg, max) = (55.379, 66.346, 72.500), stdev = 4.831
+  CI (99.9%): [62.152, 70.541] (assumes normal distribution)
+
+
+# JMH version: 1.26
+# VM version: JDK 1.8.0_271, Java HotSpot(TM) 64-Bit Server VM, 25.271-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=52669:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: utils.matchutilsBenchMark.replace
+
+# Run progress: 50.00% complete, ETA 00:05:24
+# Fork: 1 of 2
+# Warmup Iteration   1: 53.822 ops/ms
+# Warmup Iteration   2: 71.844 ops/ms
+# Warmup Iteration   3: 74.806 ops/ms
+Iteration   1: 77.792 ops/ms
+Iteration   2: 80.542 ops/ms
+Iteration   3: 81.393 ops/ms
+Iteration   4: 73.573 ops/ms
+Iteration   5: 78.154 ops/ms
+Iteration   6: 76.732 ops/ms
+Iteration   7: 75.226 ops/ms
+Iteration   8: 79.420 ops/ms
+Iteration   9: 77.685 ops/ms
+Iteration  10: 76.543 ops/ms
+
+# Run progress: 62.50% complete, ETA 00:04:03
+# Fork: 2 of 2
+# Warmup Iteration   1: 70.523 ops/ms
+# Warmup Iteration   2: 78.772 ops/ms
+# Warmup Iteration   3: 79.059 ops/ms
+Iteration   1: 80.086 ops/ms
+Iteration   2: 80.013 ops/ms
+Iteration   3: 79.943 ops/ms
+Iteration   4: 76.495 ops/ms
+Iteration   5: 80.414 ops/ms
+Iteration   6: 80.222 ops/ms
+Iteration   7: 80.461 ops/ms
+Iteration   8: 76.240 ops/ms
+Iteration   9: 79.725 ops/ms
+Iteration  10: 74.245 ops/ms
+
+
+Result "utils.matchutilsBenchMark.replace":
+  78.245 ±(99.9%) 2.006 ops/ms [Average]
+  (min, avg, max) = (73.573, 78.245, 81.393), stdev = 2.310
+  CI (99.9%): [76.239, 80.251] (assumes normal distribution)
+
+
+# JMH version: 1.26
+# VM version: JDK 1.8.0_271, Java HotSpot(TM) 64-Bit Server VM, 25.271-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=52669:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: utils.matchutilsBenchMark.stringAdd
+
+# Run progress: 75.00% complete, ETA 00:02:42
+# Fork: 1 of 2
+# Warmup Iteration   1: 3795.337 ops/ms
+# Warmup Iteration   2: 3890.103 ops/ms
+# Warmup Iteration   3: 3874.788 ops/ms
+Iteration   1: 3897.739 ops/ms
+Iteration   2: 3856.953 ops/ms
+Iteration   3: 3940.221 ops/ms
+Iteration   4: 3891.483 ops/ms
+Iteration   5: 3782.598 ops/ms
+Iteration   6: 3875.652 ops/ms
+Iteration   7: 3760.546 ops/ms
+Iteration   8: 3845.825 ops/ms
+Iteration   9: 3800.808 ops/ms
+Iteration  10: 3923.272 ops/ms
+
+# Run progress: 87.50% complete, ETA 00:01:21
+# Fork: 2 of 2
+# Warmup Iteration   1: 3741.268 ops/ms
+# Warmup Iteration   2: 3816.766 ops/ms
+# Warmup Iteration   3: 3915.975 ops/ms
+Iteration   1: 3794.877 ops/ms
+Iteration   2: 3871.697 ops/ms
+Iteration   3: 3658.141 ops/ms
+Iteration   4: 3797.340 ops/ms
+Iteration   5: 3856.622 ops/ms
+Iteration   6: 3712.043 ops/ms
+Iteration   7: 3724.728 ops/ms
+Iteration   8: 3554.919 ops/ms
+Iteration   9: 3703.639 ops/ms
+Iteration  10: 3736.915 ops/ms
+
+
+Result "utils.matchutilsBenchMark.stringAdd":
+  3799.301 ±(99.9%) 84.738 ops/ms [Average]
+  (min, avg, max) = (3554.919, 3799.301, 3940.221), stdev = 97.585
+  CI (99.9%): [3714.563, 3884.039] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:10:49
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                Mode  Cnt     Score    Error   Units
+matchutilsBenchMark.joinerWithKeyValue  thrpt   20   645.180 ± 96.477  ops/ms
+matchutilsBenchMark.repalceAll          thrpt   20    66.346 ±  4.195  ops/ms
+matchutilsBenchMark.replace             thrpt   20    78.245 ±  2.006  ops/ms
+matchutilsBenchMark.stringAdd           thrpt   20  3799.301 ± 84.738  ops/ms
