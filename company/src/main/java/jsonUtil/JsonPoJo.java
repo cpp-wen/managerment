@@ -3,6 +3,7 @@ package jsonUtil;
 import com.alibaba.fastjson.annotation.JSONField;
 import com.alibaba.fastjson.annotation.JSONType;
 
+import lombok.Builder;
 import lombok.Data;
 
 /**
@@ -12,6 +13,7 @@ import lombok.Data;
  **/
 @Data
 @JSONType()
+@Builder
 public class JsonPoJo {
 
   private String name;

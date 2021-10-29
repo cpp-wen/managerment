@@ -9,6 +9,7 @@
         <module>jdkOriginal</module>
         <module>company</module>
         <module>untitled</module>
+        <module>personal</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

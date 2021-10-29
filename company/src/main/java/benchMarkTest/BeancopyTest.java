@@ -17,7 +17,6 @@ import java.util.concurrent.TimeUnit;
 
 import POJO.JsonFrom;
 import POJO.JsonTo;
-import beanCopyUtil.BeanUtils;
 
 /**
  * @description:对象拷贝性能测试
@@ -63,8 +62,8 @@ public class BeancopyTest {
   public static void orikaTest() {
 	System.out.println(System.currentTimeMillis());
 	JsonFrom init = JsonFrom.init();
-	JsonTo jsonTo = BeanUtils.mapObjects(init, JsonTo.class);
-	System.out.println(System.currentTimeMillis());
+//	JsonTo jsonTo = BeanUtils.mapObjects(init, JsonTo.class);
+//	System.out.println(System.currentTimeMillis());
   }
 
 

@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="company" />
+        <module name="personal" />
         <module name="jdkOriginal" />
         <module name="netty" />
       </profile>
@@ -38,6 +39,7 @@
       <module name="jdkOriginal" target="8" />
       <module name="managerment" target="1.8" />
       <module name="netty" target="8" />
+      <module name="personal" target="8" />
       <module name="untitled" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -47,6 +49,7 @@
       <module name="jdkOriginal" options="-parameters" />
       <module name="managerment" options="-parameters" />
       <module name="netty" options="-parameters" />
+      <module name="personal" options="-parameters" />
       <module name="untitled" options="-parameters" />
     </option>
   </component>
