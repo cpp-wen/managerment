@@ -11,4 +11,5 @@ import lombok.Data;
 public class FatherPOJO {
   public String userName;
   public OtherPOJO otherPOJO;
+  public Integer count;
 }

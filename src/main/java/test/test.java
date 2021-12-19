@@ -13,7 +13,6 @@ public class test {
 
   private  Long number;
   public static void main(String[] args) {
-    log.info("nihao");
     test2 test2=new test2();
   }
   public static int count(){

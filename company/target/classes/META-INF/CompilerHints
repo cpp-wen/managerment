@@ -5,3 +5,5 @@ dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
 inline,benchMarkTest/BeancopyTest.jsonCopy
 inline,benchMarkTest/BeancopyTest.orikaTest
+inline,benchMarkTest/MyBenchmark.testStringAdd
+inline,benchMarkTest/MyBenchmark.testStringBuilderAdd

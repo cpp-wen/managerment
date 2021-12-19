@@ -10,6 +10,7 @@
         <module>company</module>
         <module>untitled</module>
         <module>personal</module>
+        <module>staticFile</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

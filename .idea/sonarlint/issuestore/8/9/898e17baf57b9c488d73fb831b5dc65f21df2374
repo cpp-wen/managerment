@@ -1,0 +1,19 @@
+
+J
+java:S3740."/Provide the parametrized type for this generic.(ŞÉâÙøÿÿÿÿ
+J
+java:S3740>"/Provide the parametrized type for this generic.(éû‚·ÿÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+P
+java:S1854-":Remove this useless assignment to local variable "object".(»·½‰
+U
+java:S18543":Remove this useless assignment to local variable "object".(Öç±ãûÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ
+?
+java:S1905-")Remove this unnecessary cast to "Object".(»·½‰
+M	java:S1069"9Replace this use of System.out or System.err by a logger.(èÎS
+B
+java:S3011@",This accessibility update should be removed.(™ü•™
+A
+java:S1481-"+Remove this unused "object" local variable.(»·½‰

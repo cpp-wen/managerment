@@ -46,6 +46,9 @@
     - Zab算法（paxos算法改进）
     - curator（zkclient客户端的替代）
     - UGO 用户权限控制模型 user group other
+    - 2pc
+    - 3pc
+    - 羊群效应
 - 一些需要check的点
     - Watch机制是否可以长久 如果一直watch 顺序性如何保证 即A 、B更新后 网络B、A到达
     - 主从机制、数据写入确定 是节点都写入  还是主节点写入就算完成
