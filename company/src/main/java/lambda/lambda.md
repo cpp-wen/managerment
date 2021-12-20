@@ -2,4 +2,4 @@
 1. 对于循环类方法都可以尝试使用lambda
 2. 对于x->xxxx这类方法都可以尝试使用静态方法替代
 3. reduce 方法的功能很强大
-4. 
+4. 函数接口  @FunctionalInterface 这个注解
