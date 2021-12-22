@@ -5,3 +5,5 @@
 4. 函数接口  @FunctionalInterface 这个注解
 5. 常用的函数接口consume function predicate Supplier
 6. 高效的收集器 比如groupingby 里面 可以直接看collection方法实现的子类 自定义下游收集器
+7. Collectors 实现的方法，进阶的过程了了解库函数的作用 ，了解底层是如何实现的
+8. stream流数据有一套定义的库函数 可以直接复用
