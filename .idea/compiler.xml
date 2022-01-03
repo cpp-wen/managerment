@@ -10,7 +10,6 @@
         <module name="company" />
         <module name="personal" />
         <module name="jdkOriginal" />
-        <module name="staticFile" />
         <module name="netty" />
       </profile>
       <profile name="Annotation profile for managerment" enabled="true">
