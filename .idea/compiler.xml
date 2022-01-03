@@ -36,8 +36,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="company" target="8" />
+      <module name="DailyProcess" target="1.8" />
       <module name="jdkOriginal" target="8" />
-      <module name="managerment" target="1.8" />
       <module name="netty" target="8" />
       <module name="personal" target="8" />
       <module name="staticFile" target="8" />
@@ -46,9 +46,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="DailyProcess" options="-parameters" />
       <module name="company" options="-parameters" />
       <module name="jdkOriginal" options="-parameters" />
-      <module name="managerment" options="-parameters" />
       <module name="netty" options="-parameters" />
       <module name="personal" options="-parameters" />
       <module name="staticFile" options="-parameters" />
