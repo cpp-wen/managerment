@@ -19,6 +19,7 @@ public class Strategy {
 
 
 	//Function Design patterns
+	//for second or thirds argument, can replace function
 	public void main2(){
 		Student2 student2 = new Student2();
 		student2.test2("text",(value)->value.length()>10,(value)->value);
