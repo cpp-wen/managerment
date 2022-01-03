@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/managerment.iml" filepath="$PROJECT_DIR$/managerment.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty/netty.iml" filepath="$PROJECT_DIR$/netty/netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/personal/personal.iml" filepath="$PROJECT_DIR$/personal/personal.iml" />
-      <module fileurl="file://$PROJECT_DIR$/staticFile/staticFile.iml" filepath="$PROJECT_DIR$/staticFile/staticFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
     </modules>
   </component>

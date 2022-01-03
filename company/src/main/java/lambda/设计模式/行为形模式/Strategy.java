@@ -16,8 +16,6 @@ public class Strategy {
 		student.test("text");
 	}
 
-
-
 	//Function Design patterns
 	//for second or thirds argument, can replace function
 	public void main2(){
